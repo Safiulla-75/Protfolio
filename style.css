@@ -136,6 +136,7 @@ footer{
 }
 @media screen and (max-width: 360px){
   .container{
+    height: 38px;
     padding-left:6px;
   }
   .list-ul{
@@ -154,4 +155,31 @@ footer{
     height: 40px;
     font-size: 12px;
   }
+}
+@media screen and (max-width: 275px){
+  .container{
+    padding-left:4px;
+  }
+  .logo-img img{
+    width: 35px;
+  }
+  .list-ul{
+    gap: 5px;
+  }
+  a {
+    font-size:13px;
+  }
+  .second-section img{
+    width: 160px;
+  }
+  .first-section{
+    font-size: 19px;
+    margin-bottom: 70px;
+    line-height: 35px;
+  }
+  footer{
+    height: 40px;
+    font-size: 12px;
+  }
+
 }
