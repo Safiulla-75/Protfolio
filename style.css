@@ -30,12 +30,12 @@
 .list-ul{
   list-style: none;
 }
-a{
+.list-ul li a{
   text-decoration: none;
   font-size: 25px;
   color:rgb(23 145 200);
 }
-a:hover{
+.list-ul a:hover{
   color: crimson;
   text-decoration: underline;
 }
@@ -69,18 +69,22 @@ b{
   cursor: pointer;
 }
 button{
+  border: none;
+  list-style: none;
+}
+button a{
   background-color:rgb(23 145 200);
   color: white;
   padding: 13px 25px;
   font-size: 28px;
   border-radius: 18px;
-  border: none;
   box-shadow: 0px 4px 4px rgb(0 0 0);
   cursor: pointer;
   transition: font-size 0.5s;
 }
-button:hover {
+button a:hover {
 background-color: crimson;
+color: white;
 font-size: 33px;
 }
 footer{
@@ -119,17 +123,17 @@ footer{
     gap: 10px;
     padding-right: 40px;
   }
-  a {
+  .list-ul li a {
     font-size:18px;
   }
   .second-section img{
     width: 195px;
   }
-  button{
+  button a{
     padding: 9px 21px;
     font-size: 18px;
   }
-  button:hover {
+  button a:hover {
   font-size: 29px;
   }
 
@@ -143,7 +147,7 @@ footer{
     gap: 7px;
     padding-right: 15px;
   }
-  a {
+  .list-ul li a {
     font-size:15px;
   }
   .first-section{
@@ -166,7 +170,7 @@ footer{
   .list-ul{
     gap: 5px;
   }
-  a {
+  .list-ul li a {
     font-size:13px;
   }
   .second-section img{
@@ -180,6 +184,13 @@ footer{
   footer{
     height: 40px;
     font-size: 12px;
+  }
+  button a{
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+  button a:hover {
+  font-size: 18px;
   }
 
 }
