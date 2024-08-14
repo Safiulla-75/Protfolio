@@ -125,11 +125,11 @@ footer{
   .second-section img{
     width: 195px;
   }
-  button a{
+  button{
     padding: 9px 21px;
     font-size: 18px;
   }
-  button a:hover {
+  button:hover {
   font-size: 29px;
   }
 
@@ -161,7 +161,7 @@ footer{
     padding-left:4px;
   }
   .logo-img img{
-    width: 35px;
+    width: 33px;
   }
   .list-ul{
     gap: 5px;
@@ -181,11 +181,11 @@ footer{
     height: 40px;
     font-size: 12px;
   }
-  button a{
+  button {
     padding: 7px 14px;
     font-size: 14px;
   }
-  button a:hover {
+  button:hover {
   font-size: 18px;
   }
 
