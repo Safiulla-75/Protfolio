@@ -62,8 +62,18 @@ margin-bottom: 20px;
   }
   .first_about{
     width: 100%;
+    padding: 10px;
+    margin: 15px;
+  }
+  .first_about p{
+    font-size: 18px;
   }
   .second_about{
     width: 100%;
+    padding: 10px;
+    margin: 15px;
+  }
+  .skill{
+    font-size: 18px;
   }
 }
