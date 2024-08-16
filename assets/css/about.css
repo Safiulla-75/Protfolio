@@ -2,7 +2,7 @@
   padding: 44px;
   text-align: center;
   line-height: 2.1rem;
-  background-color: rgb(238, 237, 237);
+  background-color: rgb(250, 248, 248);
 }
 .about_container h1{
   font-size: 50px;
@@ -55,23 +55,25 @@ margin-bottom: 20px;
   border-radius: 9px;
 }
 
-
 @media screen and (max-width: 858px){
   .about_section{
     flex-direction: column;
   }
+  .container_para{
+    font-size: 20px;
+  }
   .first_about{
     width: 100%;
-    padding: 10px;
-    margin: 15px;
+    padding: 7px;
+    margin: 10px 0;
   }
   .first_about p{
     font-size: 18px;
   }
   .second_about{
     width: 100%;
-    padding: 10px;
-    margin: 15px;
+    padding: 7px;
+    margin: 10px 0;
   }
   .skill{
     font-size: 18px;
