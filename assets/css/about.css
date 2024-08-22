@@ -66,6 +66,9 @@ margin-bottom: 20px;
 
 /*Media query file starts here*/
 @media screen and (max-width: 858px){
+  .about_container h1{
+    font-size: 35px;
+  }
   .about_section{
     flex-direction: column;
   }
@@ -77,6 +80,9 @@ margin-bottom: 20px;
     padding: 7px;
     margin: 10px 0;
   }
+  .first_about h3{
+    font-size: 27px;
+  }
   .first_about p{
     font-size: 18px;
   }
@@ -84,6 +90,9 @@ margin-bottom: 20px;
     width: 100%;
     padding: 7px;
     margin: 10px 0;
+  }
+  .second_about h3{
+    font-size: 27px;
   }
   .skill{
     font-size: 18px;
