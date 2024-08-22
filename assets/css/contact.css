@@ -1,0 +1,73 @@
+/*Contact section starts here*/
+.contact_container{
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+}
+.contact_hedding{
+  padding: 15px;
+  font-size: 50px;
+}
+.contact_para{
+  padding: 15px;
+  font-size: 22px;
+}
+.main_contact{
+  border: 1px solid;
+  margin: 30px 354px;
+  box-shadow: 0 2px 15px black;
+}
+.contInp{
+  display:flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.contInp label{
+  font-size: 25px;
+}
+.contInp input{
+  font-size: 15px;
+  padding: 13px;
+  background-color: rgb(240, 236, 236);
+}
+#msg{
+  padding-bottom: 70px;
+}
+#sub_button{
+  background-color: blueviolet;
+  margin-bottom: 20px;
+  font-weight:600;
+}
+#sub_button:hover{
+  background-color: rgb(238, 9, 47);
+}
+
+/*Media query file starts here*/
+
+@media screen and (max-width: 1089px) {
+  .main_contact{
+    border: 2px solid;
+    margin: 0px 151px;
+  }
+}
+@media screen and (max-width: 719px) {
+  .contact_hedding{
+    padding: 10px;
+    font-size: 35px;
+  }
+  .contact_para{
+    padding: 14px;
+    font-size: 18px;
+  }
+  .main_contact{
+    border: 2px solid;
+    margin: 0px 55px;
+  }
+  .contInp{
+    padding: 10px;
+  }
+  .contInp label{
+    font-size: 18px;
+  }
+}

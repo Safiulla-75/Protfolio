@@ -1,3 +1,4 @@
+/*About section starts here*/
 .about_container{
   padding: 44px;
   text-align: center;
@@ -54,7 +55,16 @@ margin-bottom: 20px;
   padding: 10px 22px;
   border-radius: 9px;
 }
+.about_button{
+  background-color: rgb(226, 43, 165);
+  padding: 10px 20px;
+  font-weight: 550;
+}
+.about_button:hover{
+  background-color: rgb(115, 180, 50);
+}
 
+/*Media query file starts here*/
 @media screen and (max-width: 858px){
   .about_section{
     flex-direction: column;
